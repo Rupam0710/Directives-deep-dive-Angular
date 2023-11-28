@@ -1,0 +1,9 @@
+                                Attribute vs Structural
+
+Attribute Directive                                        Structural Directive
+
+Looks like a normal HTML Attribute                         Looks like a normal HTML Attribute
+(possible with databinding or event binding)               but having a leading *(for desugaring)
+
+Only affect/change the element they are added to           Affect whole area in the DOM ,
+                                                           elements get added/removed                
